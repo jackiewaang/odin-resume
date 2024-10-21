@@ -1,4 +1,6 @@
 import Information from './Information.jsx';
+import Education from './Education.jsx';
+import Experience from './Experience.jsx';
 
 function Form({ sectionID }){
 

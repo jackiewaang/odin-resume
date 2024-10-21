@@ -13,7 +13,7 @@ function Information(){
     return (
         <div className="p-3 m-3 flex flex-col gap-5">
             <h1 className="font-bold text-4xl">Personal Details</h1>
-            <form className="pl-3 flex flex-col gap-2">
+            <form className="pl-3 flex flex-col gap-5">
                 {fields.map((field) => {
                     return <Field key={field.label} label={field.label} defaultVal={field.defaultVal}/>
                 })}
